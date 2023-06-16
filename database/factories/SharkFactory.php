@@ -14,7 +14,9 @@ class SharkFactory extends Factory
     public function definition()
     {
         return [
-            //
+            'name' => 'Prueba',
+            'email' => 'asd@gmail.com',
+            'shark_level' => $this->faker->numberBetween(1,3),
         ];
     }
 }
